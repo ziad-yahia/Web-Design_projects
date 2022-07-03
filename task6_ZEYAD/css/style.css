@@ -1,0 +1,340 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    min-height: 60px;
+    position: fixed;
+    top: 0%;
+    z-index: 100;
+    background-color: rgb(0 0 0/75%);
+    box-shadow: 0px -25px 10px rgb(255 253 253/25%) inset;
+}
+
+nav {
+    width: 100%;
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    flex-flow: row wrap;
+}
+
+nav ul {
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+}
+
+nav ul li {
+    width: 100px;
+    height: 60px;
+    line-height: 50px;
+    padding-right: 15px;
+    text-align: center;
+    float: left;
+}
+
+nav ul li a {
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: "arial black";
+    font-size: 1vw;
+}
+
+nav ul li a:active {
+    color: yellow;
+}
+
+.logo {
+    width: 300px;
+    min-height: 50px;
+    background: url(../images/logo.png) no-repeat center/contain;
+}
+
+/* =======================aside======= */
+aside {
+
+    width: 230px;
+    min-height: 35px;
+    position: fixed;
+    top: 40%;
+    left: -190px;
+    border-radius: 15px;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 99;
+}
+
+aside:hover {
+    left: 0%;
+}
+
+/* ==================sec section====== */
+.second {
+    width: 100%;
+    min-height: 600px;
+    background-color: #fed403;
+    position: relative;
+    margin-top: 4.5%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.photo {
+    width: 100%;
+    height: 600px;
+    background: url(../images/banner.jpg) no-repeat center/cover;
+    clip-path: circle(0% at 0% 0%);
+    animation: Banner 1.5s ease 0.5s 1 forwards;
+}
+
+@keyframes Banner {
+
+    from {
+        /* background: url(../images/banner.jpg) no-repeat center/cover; */
+        clip-path: circle(0% at 50% 0%);
+    }
+
+    to {
+        /* background: url(../images/banner.jpg) no-repeat center/cover; */
+        clip-path: circle(50% at 50% 50%);
+    }
+}
+
+/*  =============container section============ */
+.container1 {
+    width: 90%;
+    min-height: 150px;
+    margin: auto;
+    position: relative;
+    top: -90px;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    min-height: 700px;
+    margin: auto;
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+/* ==============pic_container================== */
+.pic_container {
+    width: 100%;
+    min-height: 170px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.pic_container .pic {
+    width: 250px;
+    height: 150px;
+    background: url(../images/tennisacademy.jpg) no-repeat center/contain;
+    background-color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.join {
+    width: 240px;
+    height: 140px;
+    font-size: 2vw;
+    font-family: "arial blcak";
+    color: #000;
+    background-color: rgb(255 187 0 /80%);
+    clip-path: circle(0% at 0% 0%);
+    transition: all 1s ease;
+}
+
+.pic:hover .join {
+    clip-path: circle(40% at 20% 10%);
+}
+
+/* =============about us section ============= */
+.about {
+    width: 100%;
+    min-height: 170px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-content: center;
+
+}
+
+.head {
+    width: 100%;
+    min-height: 88px;
+    margin-bottom: 4%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.about .head h1 {
+    width: 400px;
+    min-height: 50px;
+    margin: auto;
+    text-align: center;
+    color: #312e64;
+    font-size: 2.5vw;
+    border-bottom: 2px solid #312e64;
+    font-family: "arial black";
+    overflow: hidden;
+}
+
+.about_title {
+    width: 450px;
+    height: 170px;
+}
+
+.about_pic {
+    width: 450px;
+    height: 170px;
+    background: url(../images/about.jpg) no-repeat center/cover;
+    border-radius: 15px;
+}
+
+.about_title h1 {
+    font-family: "arial black";
+    font-size: 1.6vw;
+}
+
+.about_title p {
+    font-size: 1vw;
+    text-indent: 2px;
+}
+
+.about_title :is(h1, p) {
+    min-width: 500px;
+    color: #312e64;
+}
+
+/* =====================schedul section============= */
+.schedule {
+    width: 100%;
+    height: 300px;
+}
+
+.head {
+    width: 100%;
+    min-height: 88px;
+    margin-bottom: 4%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.schedule .head h1 {
+    width: 400px;
+    min-height: 50px;
+    margin: auto;
+    text-align: center;
+    color: #312e64;
+    font-size: 2.5vw;
+    border-bottom: 2px solid #312e64;
+    font-family: "arial black";
+    overflow: hidden;
+}
+
+.tabble table {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+tr:nth-of-type(even) {
+    background-color: lightgrey;
+}
+
+/* ==============news section--------- */
+.news {
+    width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.news :is(.card1, .card2, .card3) {
+
+    width: 350px;
+    min-height: 250px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #000;
+}
+
+.head {
+    width: 100%;
+    min-height: 88px;
+    margin-bottom: 4%;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.news .head h1 {
+    width: 400px;
+    min-height: 50px;
+    margin: auto;
+    text-align: center;
+    color: #312e64;
+    font-size: 2.5vw;
+    border-bottom: 2px solid #312e64;
+    font-family: "arial black";
+    overflow: hidden;
+}
+
+.card1 span {
+    text-align: left;
+    font-size: 1vw;
+}
+
+/* =============pre_last div */
+.pre_last {
+    min-width: 100%;
+    min-height: 350px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    justify-items: center;
+    overflow: hidden;
+    padding: 1%;
+    background-color: #fed403;
+    margin-top: 1%;
+}
+
+.pre_last_img {
+    width: 560px;
+    height: 315px;
+    background: url(../images/n2.jpg) no-repeat center/cover;
+}
+
+.ved {
+    width: 560px;
+    height: 315px;
+}
+
+/* ===========footer============ */
+footer {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    bottom: 0%;
+}

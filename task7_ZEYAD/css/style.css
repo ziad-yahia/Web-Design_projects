@@ -1,0 +1,675 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    width: 100%;
+    height: 600px;
+    background: url(../images/b1.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 0%;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    top: 2%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    justify-items: center;
+}
+
+nav ul {
+
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+}
+
+nav ul li {
+    color: rgb(252 252 252/75%);
+    width: 90px;
+    height: 60px;
+    font-weight: bolder;
+    float: left;
+    cursor: pointer;
+}
+
+.logo {
+    width: 350px;
+    height: 30px;
+    text-align: center;
+    font-size: x-large;
+    color: white;
+    font-family: "arial black";
+    overflow: hidden;
+}
+
+.last_header {
+    position: relative;
+    max-width: 100%;
+    min-height: 250px;
+}
+
+.banner {
+    width: 350px;
+    height: 150px;
+    border: 5px solid darkgoldenrod;
+    position: absolute;
+    left: 20%;
+}
+
+.title {
+    position: absolute;
+    top: 60%;
+    right: -20%;
+    width: 100%;
+    height: 90%;
+    background-color: rgb(245 245 245/90%);
+    padding: 20px 5px;
+}
+
+.title span {
+    color: rgb(29, 143, 105);
+    font-size: xx-large;
+}
+
+/* --------------------second section----------------- */
+.second {
+    position: relative;
+    max-width: 650px;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.one_second {
+    border: 3px solid lightgray;
+    width: 150px;
+    height: 250px;
+    background: url(../images/ab1.jpg) no-repeat center/cover;
+    display: block;
+}
+
+.two_second {
+    border: 3px solid lightgray;
+    width: 150px;
+    height: 250px;
+    background: url(../images/ab2.jpg) no-repeat center/cover;
+}
+
+.three_second {
+    width: 150px;
+    height: 250px;
+}
+
+.three_second h2 {
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+.three_second span {
+    color: orange;
+    font-size: x-large;
+}
+
+.four_second {
+    border: 3px solid lightgray;
+    width: 150px;
+    height: 250px;
+    background: url(../images/ab3.jpg) no-repeat center/cover;
+}
+
+/* -----------------third secton-------------- */
+.third {
+    position: relative;
+    width: 100%;
+    min-height: 350px;
+    background: url(../images/b3.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+}
+
+.third_title {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    padding: 30px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.third_title span {
+    color: aliceblue;
+    word-spacing: 6px;
+    font-size: x-large;
+}
+
+.third_title p {
+    color: goldenrod;
+    word-spacing: 6px;
+    font-size: xx-large;
+}
+
+.circle {
+    position: relative;
+    max-width: 700px;
+    min-height: 200px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+i {
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.ship {
+    width: 100px;
+    padding: 10px 0px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.ship span {
+    color: goldenrod;
+    font-size: large;
+
+}
+
+/* -------------fourth section */
+.fourth_header {
+    width: 100%;
+    min-height: 150px;
+    position: relative;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.fourth_header h2 {
+    font-size: larger;
+
+}
+
+.fourth_header span {
+    color: goldenrod;
+    font-size: xx-large;
+}
+
+.fourth_title {
+    position: relative;
+    max-width: 900px;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.fourth_title .card {
+    width: 250px;
+    height: 150px;
+    border: 2px solid white;
+    padding: 15px 10px;
+    border: 3px solid lightgray;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    color: cyan;
+}
+
+.card i {
+    color: #000;
+}
+
+/* ------------fifth section------------- */
+.fifth {
+    width: 100%;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.fifth_img {
+    width: 680px;
+    height: 300px;
+    background: url(../images/ab4.jpg) no-repeat center/cover;
+}
+
+.fifth_title {
+    width: 660px;
+    height: 300px;
+    background-color: lightgray;
+    padding: 50px 10px;
+
+}
+
+.fifth_title h2 {
+    color: rgb(31, 211, 211);
+    width: 100%;
+    height: 40px;
+}
+
+.fifth_title p {
+    width: 100%;
+    height: 100px;
+}
+
+/* -------------sixth section */
+.sixth_header {
+    width: 100%;
+    min-height: 150px;
+    position: relative;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.sixth_header h2 {
+    font-size: larger;
+
+}
+
+.sixth_header span {
+    color: goldenrod;
+    font-size: xx-large;
+}
+
+.sixth_title {
+    position: relative;
+    max-width: 900px;
+    min-height: 400px;
+    margin: 10px auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+
+.card_one {
+    width: 400px;
+    height: 200px;
+    margin: 10px 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner_card_one {
+    width: 175px;
+    height: 200px;
+    background: url(../images/g4.jpg) no-repeat center/cover;
+}
+
+.inner_card_two {
+    width: 175px;
+    height: 200px;
+    background: url(../images/g5.jpg) no-repeat center/cover;
+}
+
+.card_two {
+    width: 400px;
+    height: 200px;
+
+    background: url(../images/g6.jpg) no-repeat center/cover;
+    margin: 10px 0px;
+}
+
+.card_three {
+    width: 400px;
+    height: 200px;
+    background: url(../images/ab4.jpg) no-repeat center/cover;
+    margin: 10px 0px;
+}
+
+.card_four {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.inner_card_three {
+    width: 175px;
+    height: 200px;
+    background: url(../images/g2.jpg) no-repeat center/cover;
+}
+
+.inner_card_four {
+    width: 175px;
+    height: 200px;
+    background: url(../images/g3.jpg) no-repeat center/cover;
+}
+
+/* -------------------seventh section------------- */
+.seventh {
+    width: 100%;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.seventh_img {
+    width: 680px;
+    height: 300px;
+    background: url(../images/b4.jpg) no-repeat center/cover;
+    padding: 100px 20px;
+}
+
+.seventh_img h2 {
+    color: rgb(31, 211, 211);
+    width: 100%;
+    height: 40px;
+}
+
+.seventh_img p {
+    width: 100%;
+    height: 100px;
+    color: lightgray;
+}
+
+.seventh_img a {
+    width: 40px;
+    height: 25px;
+    text-decoration: none;
+    background-color: #000;
+    color: aliceblue;
+    font-family: "arial black";
+    padding: 10px;
+}
+
+.seventh_img2 {
+    width: 680px;
+    height: 300px;
+    background: url(../images/g6.jpg) no-repeat center/cover;
+    padding: 100px 20px;
+}
+
+.seventh_img2 h2 {
+    color: rgb(31, 211, 211);
+    width: 100%;
+    height: 40px;
+}
+
+.seventh_img2 p {
+    width: 100%;
+    height: 100px;
+    color: lightgray;
+}
+
+.seventh_img2 a {
+    width: 40px;
+    height: 25px;
+    text-decoration: none;
+    background-color: #000;
+    color: aliceblue;
+    font-family: "arial black";
+    padding: 10px;
+}
+
+.seventh_title {
+    width: 660px;
+    height: 300px;
+    background-color: lightgray;
+    padding: 50px 10px;
+
+}
+
+.seventh_title h2 {
+    color: rgb(31, 211, 211);
+    width: 100%;
+    height: 40px;
+}
+
+.seventh_title p {
+    width: 100%;
+    height: 100px;
+}
+
+.seventh_title a {
+    width: 40px;
+    height: 25px;
+    text-decoration: none;
+    background-color: #000;
+    color: aliceblue;
+    font-family: "arial black";
+    padding: 10px;
+}
+
+/* --------------8_th section */
+.eight_th {
+    position: relative;
+    max-width: 850px;
+    min-height: 400px;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.three_eight_th {
+    width: 200px;
+    height: 250px;
+}
+
+.three_eight_th span {
+    color: orange;
+    font-size: large;
+}
+
+.three_eight_th p {
+    width: 100%;
+    height: 15px;
+    color: rgb(0 0 0/60%);
+}
+
+.three_eight_th a {
+    width: 30px;
+    height: 15px;
+    color: lightgreen;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.cost {
+    width: 70px;
+    color: #000 !important;
+    font-size: large;
+    font-weight: bolder;
+}
+
+/* -------------9_th section-------- */
+.nine_th {
+    width: 100%;
+    min-height: 250px;
+    background: url(../images/b4.jpg) no-repeat center/cover;
+    text-align: center;
+}
+
+.nine_th h2 {
+    font-size: x-large;
+    color: aliceblue;
+    line-height: 60px;
+    font-style: italic;
+
+}
+
+.nine_th span {
+    color: goldenrod;
+    font-size: xx-large;
+}
+
+.sm_form {
+    width: 450px;
+    height: 60px;
+    background-color: rgb(253 253 253/50%);
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    overflow: hidden;
+}
+
+.sm_form input[type="email"] {
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 30px;
+}
+
+.sm_form input[type="button"] {
+    outline: none;
+    border: none;
+    background-color: lightgreen;
+    color: aliceblue;
+    cursor: pointer;
+    width: 110px;
+    height: 30px;
+
+}
+
+/* -----------10_th section ---------- */
+
+.ten_th {
+    position: relative;
+    width: 1000px;
+    min-height: 600px;
+    margin: auto;
+}
+
+.ten_th_header {
+    width: 100%;
+    height: 150px;
+    position: relative;
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.ten_th_header h2 {
+    font-size: larger;
+
+}
+
+.ten_th_header span {
+    color: goldenrod;
+    font-size: xx-large;
+}
+
+.prototype {
+    width: 100%;
+    min-height: 350px;
+    position: relative;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.map {
+    width: 600px;
+    height: 400px;
+}
+
+.login {
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    padding: 15px 15px;
+    overflow: hidden;
+}
+
+.login input:is([type="text"], [type="tel"], [type="email"]) {
+    width: 40%;
+    height: 40px;
+    outline: none;
+    margin-right: 20px;
+}
+
+.login input[type="submit"] {
+    width: 90%;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: rgb(72, 223, 72);
+    color: white;
+    cursor: pointer;
+}
+
+
+.login textarea {
+    resize: none;
+    margin: 10px 0px;
+    outline: none
+}
+
+/* -------------footer */
+footer {
+    position: static;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(0 0 0/70%);
+    text-align: center;
+    overflow: hidden;
+}
+
+.info {
+    width: 300px;
+    height: 275px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+address {
+    color: lightgray;
+}
+
+address span {
+    color: aliceblue;
+}
+
+.info p {
+    color: aliceblue;
+}
+
+.info p span {
+    color: lightgray;
+}
+
+marquee {
+    background-color: #000;
+    color: aliceblue;
+    padding: 15px;
+}

@@ -1,0 +1,55 @@
+#slider{
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    border: 3px solid black;
+    background:aquamarine  no-repeat center/cover;
+    transition: 1s ease-out;
+}
+
+#curosal{
+    width: 500px;
+    height: 500px;
+    margin:auto;
+    border: 3px solid black;
+    /* background:aquamarine  no-repeat center/cover; */
+    transition:all 1s ease-out;    
+    
+}
+
+a{
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-family: "arial black";
+    display: block;
+    line-height: 30px;
+    margin: auto;
+    background-color: red;
+}
+span{
+    width: 100%;
+    position: absolute;
+    display: block;
+    z-index: 2;
+}
+a::before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 0%;
+    height: 100%;
+    display: block;
+    color:indianred;
+    background-color: black;
+    z-index: 1;
+    transition: all 0.5s;
+
+}
+a:hover::before{
+    width: 100%;
+}

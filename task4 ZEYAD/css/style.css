@@ -1,0 +1,318 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    top: 0%;
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    overflow: hidden;
+}
+
+.container {
+    width: 90%;
+    height: 10vh;
+    padding: 0px 20px;
+    margin: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.logo {
+    width: 30%;
+    height: 100%;
+
+}
+
+.logo img {
+    margin-left: 5%;
+}
+
+.logo p {
+    font-size: 1vw;
+    padding: 0% 2%;
+}
+
+nav {
+    width: 70%;
+    height: 100%;
+    position: relative;
+
+}
+
+nav ul {
+    list-style: none;
+    margin: 3%;
+    padding: 0%;
+}
+
+nav ul li {
+    color: gray;
+    width: 30%;
+    height: 10px;
+    display: inline;
+
+    font-size: 1vw;
+    cursor: pointer;
+    padding: 0.5% 5%;
+    overflow: hidden;
+}
+
+nav ul li:hover {
+    background-color: brown;
+    color: aliceblue;
+}
+
+nav ul li:nth-of-type(5) {
+    padding: 0%;
+}
+
+nav ul li:last-of-type {
+    padding: 0%;
+}
+
+.btn1 {
+    width: 2%;
+    height: 1%;
+    background-color: indianred;
+    color: aliceblue;
+    padding: 0.5% 5%;
+    border-radius: 7px;
+}
+
+.btn2 {
+    width: 2%;
+    height: 1%;
+    background-color: indianred;
+    color: aliceblue;
+    padding: 0.5% 5%;
+    border-radius: 7px;
+}
+
+/* ==================== secend section ====================*/
+.main_container {
+    margin: auto;
+    margin-top: 5%;
+    width: 90%;
+    padding: 1%;
+    position: static;
+    overflow: hidden;
+}
+
+/* ==================first div ================ */
+.first {
+    min-width: 100%;
+    height: 80vh;
+    background: url(../images/irene-davila-9Y5Wk7favpE-unsplash.jpg) no-repeat center/cover;
+    z-index: 1;
+    margin-bottom: 1%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.text1 {
+    width: 60%;
+    height: 70%;
+    bottom: 0%;
+    right: 20%;
+    text-align: center;
+    padding: 3%;
+    font-size: 1vw;
+    color: rgb(240 248 255 /100%);
+    font-family: "Arial black";
+    position: absolute;
+    background-color: rgb(17 17 17/45%);
+    overflow: hidden;
+    z-index: 2;
+}
+
+.text1 h1 {
+    font-size: 1.6vw;
+    padding-bottom: 4%;
+}
+
+.text1 p {
+    font-size: 0.8vw;
+    padding-bottom: 4%;
+}
+
+/* =============================sec div================= */
+.second {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 1%;
+    z-index: 1;
+    background-color: lightgrey;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.imge1 {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    background: url(../images/joshua-earle--87JyMb9ZfU-unsplash.jpg) no-repeat center/cover;
+    z-index: 1;
+}
+
+.text2 {
+    width: 65%;
+    height: 70%;
+    position: absolute;
+    background: rgb(255, 255, 255);
+    border: 2px solid lightgray;
+    z-index: 2;
+    right: 0%;
+    padding: 1%;
+    text-align: center;
+    bottom: 16%;
+    overflow: hidden;
+}
+
+.text2 h1 {
+    font-size: 1.6vw;
+    padding: 4%;
+    font-family: "arial black";
+}
+
+.text2 p {
+    font-size: 1vw;
+    font-family: "arial ";
+}
+
+/* ===============th div */
+.Third {
+    min-width: 100%;
+    height: 80vh;
+    margin-bottom: 0.8%;
+    z-index: 1;
+    background: url(../images/manik-rathee-a8YV2C3yBMk-unsplash.jpg) no-repeat center/cover;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.title3 {
+    color: aliceblue;
+    width: 100%;
+    z-index: 2;
+}
+
+.title3 p {
+    width: 50%;
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    font-size: min(1.6vw, 20px);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title3 h1 {
+    width: 50%;
+    position: absolute;
+    text-transform: capitalize;
+    left: 10%;
+    top: 45%;
+    font-size: 2vw;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.btn3 {
+    width: 10%;
+    height: 5vh;
+    background-color: indianred;
+    color: aliceblue;
+    font-size: 1vw;
+    border: 1px solid;
+    border-radius: 7px;
+    padding: 0.5%;
+    position: absolute;
+    bottom: 5%;
+    right: 25%;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* =============fth div ============== */
+.photo {
+    width: 100%;
+    height: 35vh;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.photo1 {
+    width: 25%;
+    padding: 0.5%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.pic1 {
+    width: 100%;
+    height: 30vh;
+    background: url(../images/agent-7.jpg) no-repeat center/contain;
+}
+
+.photo2 {
+    width: 25%;
+    padding: 0.5%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.pic2 {
+    width: 100%;
+    height: 30vh;
+    background: url(../images/agent-8.jpg) no-repeat center/contain;
+}
+
+.photo3 {
+    width: 25%;
+    padding: 0.5%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.pic3 {
+    width: 100%;
+    height: 30vh;
+    background: url(../images/agent-2.jpg) no-repeat center/contain;
+}
+
+.photo4 {
+    width: 25%;
+    padding: 0.5%;
+    margin-left: 1%;
+    text-align: center;
+}
+
+.pic4 {
+    width: 100%;
+    height: 30vh;
+    background: url(../images/agent-3.jpg) no-repeat center/contain;
+}
+
+/* ======================footer ================*/
+
+footer {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    font-size: 3vw;
+    font-style: italic;
+    overflow: hidden;
+}

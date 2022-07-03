@@ -1,0 +1,215 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+/* ===============header========= */
+header{
+    width: 100%;
+    min-height: 30px;
+    position: fixed ;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    background-color: rgb(46, 41, 41);
+   box-shadow: 0px 5px 2px orange;
+    z-index: 99;
+   
+}
+.logo{
+    width: 400px;
+    height: 50px;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+}
+
+nav{
+    width: 500px;
+    height: 100%;
+    margin: 15px;
+}
+nav ul{
+    width: 500px;
+    min-height: 100%;
+    display: flex;
+    list-style: none;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    
+   
+}
+
+nav ul li{
+   width: 24%;
+   height: 100%; 
+   color: aliceblue;
+   padding: 2%;
+   text-align: center;
+border-right: 1px solid white;
+cursor: pointer;
+
+}
+nav ul li:hover{
+    color: white;
+    background-color: orange;
+}
+/* ================ aside div================ */
+aside{
+    width: 10%;
+    height: 25vh;
+    position: fixed;
+    z-index: 10;
+    margin: 0%;
+    padding: 0%;
+    top: 30%;
+    display: flex;
+    flex-flow: column nowrap;
+    left: 0%;
+}
+#sidemove:first-of-type{
+    background-color: rgb(253, 80, 80);
+}
+#sidemove:nth-of-type(3){
+    background-color: rgb(63, 253, 253);
+}
+#sidemove:last-of-type{
+    background-color: white;
+    color: red;
+}
+#sidemove{
+    width: 100%;
+    height: 5vh;
+    display: block;
+    background-color: rgb(86, 86, 245);
+    color: white;
+    margin: 1%;
+    padding: 1.5%;
+    font-family: "arial black";
+    font-size: 1vw;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    left: -77%;
+    transition: all 1s ease;
+}
+#sidemove:hover{
+    left: 0px;
+   
+}
+/*================= second div ==========*/
+.second{
+    width: 100%;
+    height: 85vh;
+    position: relative;
+    margin-top:70px ;
+    background: black url(../images/slider.jpg) no-repeat 0%/cover;
+    z-index: 1;
+}
+/* =================third  div================ */
+.third{
+    width: 100%;
+    min-height: 30vh;
+    background-color: lightgray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.text1{
+    width: 300px;
+    height: 85%;
+    background-color: aliceblue;
+    text-align: center;
+}
+.text1 p{
+    padding: 4%;
+    font-size: 1vw;
+}
+.text1 h1{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding: 3%;
+    background-color: red;
+    font-size: 1.6vw;
+    color: white;
+}
+
+.text2{
+    width: 300px;
+    height: 85%;
+    background-color: aliceblue;
+    text-align: center;
+}
+.text2 p{
+    padding: 4%;
+    font-size: 1vw;
+}
+.text2 h1{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding: 3%;
+    background-color: rgb(201, 189, 25);;
+    font-size: 1.6vw;
+    color: white;
+}
+.text3{
+    width: 300px;
+    height: 85%;
+    background-color: aliceblue;
+    text-align: center;
+}
+.text3 p{
+    padding: 4%;
+    font-size: 1vw;
+}
+.text3 h1{
+    width: 100%;
+    height: 40%;
+    text-align: center;
+    padding: 3%;
+    background-color: rgb(54, 28, 172);
+    font-size: 1.6vw;
+    color: white;
+}
+/* ======fourth div ============== */
+.fourth{
+        width: 100%;
+        height: 23vh;
+        display: flex;
+        flex-flow: row wrap;
+}
+.photo{
+    width: 30%;
+    height: 23vh;
+    background: url(../images/wallpaperflare.com_wallpaper\ \(10\).jpg) no-repeat center/cover;
+}
+.fth_title{
+    width: 70%;
+    height: 23vh;
+    color: aliceblue;
+    text-align: center;
+    padding: 3%;
+    font-size: 1vw;
+    background-color: rgb(0 0 0/70%);
+}
+/* ================last================= */
+footer{
+    width: 100%;
+    height: 5vh;
+    position: static;
+
+}
+.end{
+    width:100%;
+    height:5vh;
+    color: aliceblue;
+    font-size: 1vw;
+    padding: 1%;
+    background-color: gray;
+}

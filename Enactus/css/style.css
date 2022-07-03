@@ -1,0 +1,256 @@
+@media print{
+    *{
+        display: none;
+    }
+}
+*{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+/* -----preloader style */
+#loder{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gold;
+    z-index: 999;
+    top: 0%;
+    left: 0%;
+}
+.nav-f{
+    font-family: "arial black";
+}
+
+
+.writer{
+    white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    animation: doit 3.5s  1s ease both;
+    -webkit-animation: doit 3.5s  1s ease both;
+}
+@keyframes doit {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+    
+}
+.para{
+ 
+    font-family: "arial black";
+    color: white;
+}
+#navbarSupportedContent{
+    transition: all 1s ease-in-out;
+}
+/* ---------------------nav--------------------- */
+.head{
+    z-index: 9999999999;
+    top: 3%;
+    border-radius: 40px;
+    /* background-color: rgba(128, 128, 128, 0.726); */
+}
+/* -----------------go up icone */
+.up{ 
+    position: fixed;
+    font-size: 12px;
+    right: -100px;
+    color: gold;
+    border-radius: 4px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    z-index: 99;
+    
+}
+.show{
+
+    right: 10px;
+}
+
+/* ================ aside div================ */
+aside{
+    width: 10%;
+    height: 25vh;
+    position: fixed;
+    z-index: 10;
+    margin: 0%;
+    padding: 0%;
+    top: 30%;
+    display: flex;
+    flex-flow: column nowrap;
+    left: 0%;
+}
+#sidemove:first-of-type{
+    background-color: rgb(253, 80, 80);
+}
+#sidemove:nth-of-type(3){
+    background-color: rgb(63, 253, 253);
+}
+#sidemove:last-of-type{
+    background-color: gold;
+    color: red;
+}
+#sidemove{
+    width: 100%;
+    height: 5vh;
+    display: block;
+    background-color: rgb(86, 86, 245);
+    color: white;
+    margin: 1%;
+    padding: 1.5%;
+    font-family: "arial black";
+    font-size: 1vw;
+    border-radius: 2px;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    left: -77%;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    overflow: hidden;
+}
+#sidemove:hover{
+    left: -2px;
+   
+}
+
+/* ------------------second section-------------------- */
+.second{
+    width: 100%;
+    height: 90vh;
+    transition: 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    filter: brightness(25%);
+}
+/* ------font----------- */
+.d{
+    color: transparent;
+    font-family: 'arial black';
+    -webkit-text-stroke:2px black  ;
+    text-stroke:2px black  ;
+
+}
+
+/* ------fourth section ----------------- */
+.fourth{
+    min-height: 70vh;
+    position: relative;
+}
+
+ .image{
+    margin-top: 30px;
+    position: relative;
+    animation: dothis 5s ease  infinite both ;
+    -webkit-animation: dothis 5s ease  infinite both ;
+
+}
+
+@keyframes dothis {
+    0%,100%{
+        top: 0;
+
+    }
+    50%{
+        top: -20px;
+    }
+} 
+/* --------------sixth ----------------------- */
+.sixth{
+    min-height: auto;
+    position: relative;
+    background-color: #EEE;
+}
+
+ .image{
+    margin-top: 30px;
+    position: relative;
+    animation: dothis 5s ease  infinite both ;
+    -webkit-animation: dothis 5s ease  infinite both ;
+
+}
+
+@keyframes dothis {
+    0%,100%{
+        top: 0;
+
+    }
+    50%{
+        top: -10px;
+    }
+}
+/* --------------seventh-------------------- */
+.seventh{
+ min-height: 60vh;
+ background: url("../images/wallpaperflare.com_wallpaper\ \(10\).jpg") no-repeat center/cover; 
+ background-attachment: fixed;  
+ filter:blur(2px);
+
+}
+
+/* ----------------------eight------------------ */
+.eight{
+    min-height: 50vh;
+}
+.pho-high {
+    min-height: 200px;
+}
+
+.herozintal{
+ 
+    color: goldenrod;
+   
+    
+}
+
+/* ------------------------map------------------- */
+.map{
+    min-height: 55vh;
+}
+/* --------progress */
+.progress{
+    min-height: 60vh;
+    background-color: white;
+}
+.porg-val{
+    position: relative;
+    background-color: black;
+    width: 400px;
+    height: 15px;
+    border-radius: 20px;
+}
+.porg-val-inner{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0%;
+    height: 100%;
+    background: linear-gradient(to left, orange,gold,yellow);
+    border-radius: 20px;
+    transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+}
+
+/* ---------------------ved ---------------- */
+.ved{
+    min-height: 80vh;
+}
+/* ---------------footer */
+.fot{
+    min-height: 5vh;
+    background-color: rgb(0, 0, 0); 
+}
+.mar{
+    font-family: "arial black";
+    color: white;
+    
+}

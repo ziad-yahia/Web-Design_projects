@@ -1,0 +1,236 @@
+header {
+    min-height: 90vh;
+    background: url(../images/bg.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+
+}
+
+.head_hight {
+    min-height: 90vh;
+    overflow: hidden;
+}
+
+.header-color {
+    background-color: rgb(26, 161, 121);
+}
+
+.header-text:hover {
+    background-color: rgb(253, 152, 67);
+}
+
+.head-row {
+
+
+    background-color: rgb(124, 163, 124);
+    min-height: 120px;
+}
+
+.sec-box {
+    background-color: rgb(253, 152, 67);
+    height: 120px;
+}
+
+/* ------second section---------- */
+.sec_2 {
+    min-height: 50vh;
+
+
+}
+
+.content {
+    height: 200px;
+}
+
+.content-color {
+    color: rgb(255, 97, 56);
+}
+
+/* ----------third section-------------- */
+.third {
+    min-height: 10vh;
+}
+
+.third-text {
+    color: darkgrey;
+
+}
+
+.third-span {
+    color: grey;
+}
+
+/* ------fourth section------- */
+.fourth {
+    min-height: 90vh;
+}
+
+.title {
+    min-height: 45vh;
+}
+
+.green-bg-color {
+    background-color: rgb(26, 161, 121);
+}
+
+.orang-bg-color {
+    background-color: rgb(255, 98, 57);
+}
+
+.pic1 {
+    min-height: 45vh;
+    background: url(../images/about-pic2.jpg) no-repeat center/cover;
+
+}
+
+.pic2 {
+    min-height: 45vh;
+    background: url(../images/about-pic1.jpg) no-repeat center/cover;
+}
+
+.pic3 {
+    min-height: 45vh;
+    background: url(../images/about-pic3.jpg) no-repeat center/cover;
+}
+
+/* ---fifth section ------------- */
+.fifth {
+    min-height: 70vh;
+    background: url(../images/process-bg.jpg) no-repeat center/cover;
+}
+
+.fifth-logo {
+    height: 20vh;
+}
+
+.fifth-brand {
+    min-height: 50vh;
+}
+
+.fifth-brand-box {
+    height: 250px;
+}
+
+.fifth-pic1 {
+    background: url(../images/p-bg1.jpg) no-repeat top/cover;
+}
+
+.fifth-pic2 {
+    background: url(../images/p-bg2.jpg) no-repeat top/cover;
+}
+
+.fifth-pic3 {
+    background: url(../images/p-bg3.jpg) no-repeat top/cover;
+}
+
+.fifth-pic4 {
+    background: url(../images/p-bg4.jpg) no-repeat top/cover;
+}
+
+/* --sixth section */
+.sixth {
+    min-height: 100vh;
+}
+
+.sixth-cards-general {
+    min-height: 500px;
+}
+
+.sixth-cards {
+    min-height: 150px;
+}
+
+.sixth-cards1 {
+    min-height: 360px;
+}
+
+.card-head {
+    color: grey;
+}
+
+.card-title {
+    color: darkgrey;
+}
+
+/* ----- seventh section */
+.seventh {
+    min-height: 40vh;
+}
+
+/* ----eight section --------- */
+.eight {
+    min-height: 90vh;
+}
+
+.pho-high {
+    height: 200px;
+}
+
+.pho1 {
+    background: url(../images/portpic1.jpg) no-repeat center/cover;
+}
+
+.pho2 {
+    background: url(../images/portpic2.jpg) no-repeat center/cover;
+}
+
+.pho3 {
+    background: url(../images/portpic3.jpg) no-repeat center/cover;
+}
+
+.pho4 {
+    background: url(../images/portpic4.jpg) no-repeat center/cover;
+}
+
+.pho5 {
+    background: url(../images/portpic5.jpg) no-repeat center/cover;
+}
+
+.pho6 {
+    background: url(../images/portpic6.jpg) no-repeat center/cover;
+}
+
+.pho7 {
+    background: url(../images/portpic7.jpg) no-repeat center/cover;
+}
+
+.pho8 {
+    background: url(../images/portpic8.jpg) no-repeat center/cover;
+}
+
+.pho9 {
+    background: url(../images/portpic9.jpg) no-repeat center/cover;
+}
+
+/* --------ninth section ---------------*/
+.ninth {
+    min-height: 40vh;
+    background-color: rgb(255, 98, 57);
+}
+
+/* -----------tenth section-------------- */
+.ten {
+    min-height: 50vh;
+}
+
+.curosal-bg {
+    background-color: rgb(255, 98, 57);
+}
+
+/* ------------eleventh section ------------------ */
+.eleventh {
+    min-height: 50vh;
+}
+
+.div-cover {
+    position: absolute;
+    background-color: rgb(255, 98, 57);
+    height: 50vh;
+    min-width: 100px;
+    right: 20%;
+}
+
+
+/* -----------------footer----------------------- */
+.foot-high {
+    min-height: 20vh;
+}

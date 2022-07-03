@@ -1,0 +1,250 @@
+*{
+    scroll-behavior: smooth;
+    box-sizing: border-box; 
+    padding: 0%;
+    margin: 0%;
+}
+
+ .main{
+    width: 100%;
+   min-height: 800px;
+   
+
+}
+.container {
+    /* color: transparent; */
+    width: 100%;
+    height: 800px;
+    background: url('../images/banner.jpg') no-repeat 0%/cover ;
+    background-attachment: fixed;
+  background-color:rgb(43, 38, 38);
+  background-blend-mode:soft-light;
+  box-sizing: border-box;
+   
+  
+}
+
+.innercontainer{
+    width: 70%;
+    height: 800px;
+    margin:auto;
+    overflow: hidden;
+    
+}
+
+.logo{
+    width: 250px;
+    height: 60px;
+    float: left;
+    padding-top:7px ;
+    
+}
+
+ .logo span{ 
+    font-size: 2vw;
+    color: aliceblue;
+    font-family: "Arial black";
+    text-transform: capitalize;
+    font-weight: bolder;
+
+}
+
+
+
+.logo span::before{
+    
+   content: url('../images/burger.png');
+    background-position: center;
+    background-size: cover;
+    vertical-align: sub;
+}
+
+.nav_bar{
+    width: 300px;
+    height: 80px;
+    float: right;
+    box-sizing: border-box;
+    padding-top:2rem;
+}
+.nav_bar ul li{
+    color: aliceblue;
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    font-size: 1vw;
+    font-family: "arial black";
+    text-transform: capitalize;
+    font-weight: bolder;
+    transition: all 0.2s ease;
+    
+}
+.nav_bar ul li:hover{
+    color: orange;
+    text-decoration: underline solid rgb(255, 255, 255);
+    font-size: 20px;
+    cursor: pointer;
+
+}
+/* ==============  content style ==================   */
+.content{
+
+    width: 45%;
+    clear: both;
+    margin-top: 200px;
+}
+.content h1{
+    color: aliceblue;
+    font-family: "arial black";
+    font-weight: bold;
+}
+
+.content span{
+    color: transparent;
+    font-family: "arial black";
+    font-weight: bold;
+    font-size:5vw ;
+    -webkit-text-stroke:1px white;
+}
+.content p{
+    color: aliceblue;
+    font-family:"arial black" ;
+}
+.content .btn1{
+
+    background-color: orange;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px;
+    margin-right: 3px;
+    border-radius: 10px;
+    font-family: "arial black";
+    cursor: pointer;   
+}
+.content .btn2{
+
+    color: orange;
+    padding: 16px;
+    border-radius: 10px;
+    font-family: "arial black";
+    border: 1px solid orange;
+    -webkit-background-clip: text;
+    background-clip:text;
+    cursor: pointer;
+}
+
+/* =====================second section ======================= */
+.main2{
+    width: 100%;
+    height: 280px;
+    background-color: lightgray;
+}
+.sc_container{
+    width: 70%;
+    height: 280px;
+    margin: auto;
+ 
+   
+}
+.text{
+    text-align: center;
+    background-color: aliceblue;
+    width: 30%;
+    height: 250px;
+    float: left;
+    margin: 15px 10px;
+    padding: 0px 15px;
+    border: 3px solid black;
+}
+
+/* ==========================third section style */
+.main3{
+    width: 100%;
+    height: 350px;
+    background-color: aliceblue;
+}
+.th_container{
+    width: 70%;
+    height: 350px;
+    margin: auto;
+}
+.list{
+    width: 35%;
+    height: auto;
+    float: left;
+}
+.list ol li{
+    color: blueviolet;
+    font-family: "arial black";
+    padding: 10px 10px;
+    margin: 10px 20px;  
+    list-style-type: '\2661';
+}
+::marker{
+    color: orange;
+}
+.show_img{
+    width: 30%;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    float: right;
+}
+
+/*=====================fourth section ==============*/
+.pre_last{
+    width: 100%;
+    height: 300px;
+    background: rgb(43, 38, 38) url('../images/bg.jpg') no-repeat bottom/cover;
+    background-attachment: fixed;
+    background-blend-mode:soft-light ;
+}
+.pre_container{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    padding: 50px;
+}
+.contact{
+    width: 100%;
+    height: 150px;
+    border: 3px solid orange;
+    text-align: center;
+    padding: 20px;
+
+}
+.contact p{
+    color: aliceblue;
+    font-family: "arial black";
+    font-size: 2vw;
+}
+.contact p span{
+    color:orange;
+}
+.contact_btn{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    background-color: orange;
+    font-family: "arial black";
+    cursor: pointer;   
+}
+.contact_btn2{
+    border: 1px solid orange;
+    color: orange;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: "arial black";
+    -webkit-background-clip: text;
+    background-clip:text ;
+    cursor: pointer;
+}
+  /*=================last element===============*/
+  .end{
+      height: 45px;
+      color: lightgray;
+      font-family: "arial black";
+      background-color: rgb(31, 27, 27);
+      padding: 10px;
+      overflow: hidden;
+  }

@@ -1,0 +1,62 @@
+@import url(font.css);
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+}
+h1{
+    margin: 50px 25vw 50px 30vw;
+    color: transparent;
+    font-size: max(3vw,70px);
+    text-transform: uppercase;  
+    background-image: url('../images/giphy.gif');
+    -webkit-background-clip: text; 
+    background-clip: text;
+
+}
+
+.head1{
+    text-shadow: -2px -2px 2px red;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+}
+#head2{
+
+    text-shadow:  -2px -2px 2px rgb(0, 255, 0);
+    margin: 30px 0px;
+    text-transform: capitalize;
+
+
+}
+.col{
+    column-count:3 ;
+    column-gap:3rem ;
+    column-rule: 10px solid red;
+    font-family: 'Abril Fatface', cursive;
+}
+.c{
+
+    margin: 30px 170px 30px 170px;
+    text-align: center;
+    border-top: 5px solid indianred;
+}
+
+#pre-last{
+box-sizing: padding-box;
+    margin: 50px 100px;
+    padding: 1rem;
+    font-size: max(3vh,25px);
+    font-family: ziad;
+    border: 7px dashed red;
+    border-radius:3rem;
+}
+.last{
+    background-color:palevioletred;
+    margin-bottom: 0%;
+    height: 3rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    padding-top: 10px;
+}
