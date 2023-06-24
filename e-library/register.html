@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawsome cdn-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- css my style -->
+    <link rel="stylesheet" href="css/register.css" />
+    <title>register</title>
+    <!-- -----jquery ------ -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.4.min.js"
+      integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8="
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="promotion">
+      <p>SAVE UP TO 40% OFF SELECT BOOKS</p>
+      <p>FREE DELIVER & RETURNS | JOIN NOW</p>
+      <p>BUY BY CARD AND GET 50% OFFER</p>
+    </div>
+
+    <nav>
+      <div class="nav-links">
+        <a href="aboutus.html"><span> About Us</span></a>
+        <a href="index.html"><span>Home</span> </a>
+        <a href="login.html"><span>Login</span> </a>
+      </div>
+    </nav>
+
+    <!-- --------end nav -->
+
+    <section class="main">
+      <div class="image"></div>
+      <div class="form-field">
+        <form action="login.html" id="form">
+          <div class="main-form">
+            <p id="Errors" style="text-align: center;"></p>
+            <h1>First Name :</h1>
+            <input type="text" name="" id="firstname" /><br />
+
+            <h1 class="Lastname">Last Name :</h1>
+            <input type="text" name="" id="Lastname" />
+            <i class="fas fa-trash" id="lastnametrash"></i><br />
+
+            <h1 class="phone">Phone :</h1>
+            <input type="tel" name="" id="tele" />
+            <i class="fas fa-trash" id="teletrash"></i><br />
+
+            <h1 class="Birthday">Birthday :</h1>
+            <input type="date" name="" id="date" />
+            <i class="fas fa-trash" id="Birthdaytrash"></i><br />
+
+            <h1>Email :</h1>
+            <input type="email" name="" id="email" /><br />
+
+            <h1>Password :</h1>
+            <input type="password" name="" id="pws" />
+            <i class="fa-solid fa-eye-slash" id="eye"></i><br />
+
+            <h1>Password Confirm :</h1>
+            <input type="password" name="" id="pwsconfirm" />
+            <i class="fa-solid fa-eye-slash" id="eyepswconfirm"></i>
+          </div>
+
+          <button type="submit">REGISTER</button>
+        </form>
+      </div>
+    </section>
+
+    <script>
+      $(document).ready(function () {
+        $("#lastnametrash").click(function () {
+          $("#Lastname").hide();
+          $(".Lastname").hide();
+          $("#lastnametrash").hide();
+        });
+
+        $("#teletrash").click(function () {
+          $("#tele").hide();
+          $(".phone").hide();
+          $("#teletrash").hide();
+        });
+
+        $("#Birthdaytrash").click(function () {
+          $("#date").hide();
+          $(".Birthday").hide();
+          $("#Birthdaytrash").hide();
+        });
+      });
+    </script>
+    <script src="js/register.js"></script>
+  </body>
+</html>
